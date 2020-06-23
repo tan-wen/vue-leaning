@@ -1,23 +1,23 @@
 <template>
   <div id="app">
-    <!-- <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>-->
-
-    <Cart/>
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
+    <!-- <Cart/> -->
 
   </div>
 </template>
 
 <script>
 
-// import HelloWorld from './components/HelloWorld.vue'
-import Cart from './components/Cart'
+import HelloWorld from './components/HelloWorld.vue'
+// import Cart from './components/Cart'
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld,
-    Cart
+     HelloWorld
+    // Cart
   }
 }
 </script>
